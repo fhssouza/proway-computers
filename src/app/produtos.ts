@@ -12,9 +12,9 @@ export interface IProductCart extends IProduct {
 }
 
 export const products: IProduct[] = [
-    { id: 1, description: "Mouse gamer", price: 439.00, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/mouse-3.jpg" },
-    { id: 2, description: "Very good monitor", price: 1200.50, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/monitor-1.jpg" },
-    { id: 3, description: "Excellent keyboard", price: 749.99, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/keyboard-1.jpg" },
+    { id: 1, description: "Mouse gamer", price: 439.00, paymentOption: "Cash payment on PIX", stockQuantity: 15, image: "./assets/mouse-3.jpg" },
+    { id: 2, description: "Very good monitor", price: 1200.50, paymentOption: "Cash payment on PIX", stockQuantity: 20, image: "./assets/monitor-1.jpg" },
+    { id: 3, description: "Excellent keyboard", price: 749.99, paymentOption: "Cash payment on PIX", stockQuantity: 5, image: "./assets/keyboard-1.jpg" },
     { id: 4, description: "Headset for gamers", price: 599.99, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/headset-2.jpg" },
     { id: 5, description: "Headset", price: 299.99, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/headset-1.jpg" },
     { id: 6, description: "Good headset", price: 399.99, paymentOption: "Cash payment on PIX", stockQuantity: 10, image: "./assets/headset-3.jpg" },
