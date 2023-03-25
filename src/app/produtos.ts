@@ -11,6 +11,10 @@ export interface IProductCart extends IProduct {
     quantity: number;
 }
 
+export interface IProdutoCarrinho extends IProduct{
+    quantidade: number;
+}
+
 export const products: IProduct[] = [
     { id: 1, description: "Mouse gamer", price: 439.00, paymentOption: "Cash payment on PIX", stockQuantity: 15, image: "./assets/mouse-3.jpg" },
     { id: 2, description: "Very good monitor", price: 1200.50, paymentOption: "Cash payment on PIX", stockQuantity: 20, image: "./assets/monitor-1.jpg" },
